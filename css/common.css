@@ -216,7 +216,7 @@ top
   position: relative;
 }
 
-#remote_natives header h1.set img {
+#remote_natives header h1.set p {
   opacity: 0;
 }
 
@@ -234,7 +234,7 @@ top
   display: block;
 }
 
-#remote_natives header h1 img {
+#remote_natives header h1 p {
   position: absolute;
   left: 0;
   top: 0;
@@ -249,7 +249,7 @@ top
     width: 70px;
     height: 26px;
   }
-  #remote_natives header h1.set img {
+  #remote_natives header h1.set p {
     opacity: 0;
   }
   #remote_natives header h1.set .sp_black {
@@ -258,7 +258,7 @@ top
   #remote_natives header h1 .sp_white {
     opacity: 1;
   }
-  #remote_natives header h1 img {
+  #remote_natives header h1 p {
     opacity: 0;
   }
   #remote_natives header h1 .pc_black, #remote_natives header h1 .pc_white {
@@ -414,7 +414,7 @@ top
 }
 
 #remote_natives .lun_menu li a.on {
-  color: #A0A0A0;
+  color: black;
   transition: all 0.3s ease;
 }
 
@@ -681,7 +681,8 @@ top
 
 #remote_natives .first-view_lead {
   font-size: 16px;
-  color: #3D3D3D;
+  color: white;
+  text-shadow: 1px 1px 5px rgb(255, 255, 255);
   margin-top: 30px;
   margin-bottom: 40px;
 }
@@ -909,10 +910,10 @@ top
   font-size: 16px;
   padding-bottom: 145px;
   background-color: #262741;
-  background-image: url("../img/bg_logo_pc.png");
-  background-repeat: no-repeat;
+  /* background-image: url("../img/bg_logo_pc.png"); */
+  /* background-repeat: no-repeat;
   background-position: center;
-  background-size: 1200px 477px;
+  background-size: 1200px 477px; */
 }
 
 @media screen and (min-width: 768px), print {
@@ -1916,15 +1917,13 @@ top
 }
 
 #remote_natives .service {
-  background: url("../img/service_bg_pc.jpg") center top no-repeat;
-  background-size: cover;
+  background: #23282F;
   padding: 100px 0;
 }
 
 @media screen and (max-width: 767px) {
   #remote_natives .service {
-    background: url("../img/service_bg_sp.jpg") center top no-repeat;
-    background-size: cover;
+    background:  #23282F;
   }
 }
 
@@ -2672,6 +2671,7 @@ top
   position: absolute;
   right: 60px;
   top: -32px;
+  z-index: 200;
   transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -2690,40 +2690,6 @@ top
 
 #remote_natives footer .btn_top:hover {
   background-color: #7351FF;
-}
-
-#remote_natives footer .monopo_logo {
-  margin-left: 60px;
-  margin-right: 40px;
-  position: relative;
-  display: block;
-  height: 11px;
-  width: 60px;
-}
-
-@media screen and (max-width: 767px) {
-  #remote_natives footer .monopo_logo {
-    margin-left: 4%;
-    padding-top: 20px;
-    margin-bottom: 15px;
-  }
-}
-
-#remote_natives footer .monopo_logo:after {
-  content: "";
-  width: 1px;
-  height: 11px;
-  background: #fff;
-  display: block;
-  position: absolute;
-  right: -20px;
-  top: 0;
-}
-
-@media screen and (max-width: 767px) {
-  #remote_natives footer .monopo_logo:after {
-    display: none;
-  }
 }
 
 #remote_natives footer .copy {
@@ -3071,6 +3037,8 @@ common
 }
 
 .delay10 {
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
   transition-delay: 1s !important;
 }
 
