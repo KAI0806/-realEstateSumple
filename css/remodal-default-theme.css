@@ -94,28 +94,6 @@
   background: transparent;*/
 }
 
-/*.remodal-close:hover,
-.remodal-close:focus {
-  color: #2b2e38;
-}
-
-.remodal-close:before {
-  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
-  font-size: 25px;
-  line-height: 35px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  display: block;
-
-  width: 35px;
-
-  content: "\00d7";
-  text-align: center;
-}*/
-
 /* Dialog buttons */
 
 .remodal-confirm,
@@ -225,7 +203,7 @@
 
 @media only screen and (min-width: 641px) {
   .remodal {
-    //max-width: 700px;
+    max-width: 700px;
   }
 }
 
