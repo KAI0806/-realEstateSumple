@@ -81,6 +81,12 @@ a:link {
   text-decoration: none;
 }
 
+@media screen and (max-width: 767px){
+  a,a:link {
+  color: #000;
+}
+}
+
 a:active,
 a:focus {
   color: #000;
@@ -434,17 +440,17 @@ top
   z-index: 2;
 }
 
-/* #remote_natives .first-view_contents2 {
+#remote_natives .first-view_contents2 {
   background: url("../img/mariah-hewines.jpg") center center no-repeat;
   background-size: cover;
-} */
+}
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   #remote_natives .first-view_contents2 {
-    background: url("../img/mariah-hewines.jpg") center center no-repeat;
+    background: url("../img/SP_billding.jpg") center center no-repeat;
     background-size: cover;
   }
-} */
+}
 
 #remote_natives .first-view_contents2 .lun_menu a {
   color: #fff;
@@ -1292,6 +1298,7 @@ top
     position: absolute;
     right: 55px;
     top: 15px;
+
   }
 }
 
@@ -2089,7 +2096,6 @@ top
 
 @media screen and (max-width: 767px) {
   #remote_natives .service .contact_btn {
-    width: 337px;
     height: 66px;
     border-radius: 33px;
     margin: 60px auto 0;
@@ -2749,7 +2755,7 @@ top
     position: fixed;
     top: 0;
     left: 0;
-    background: #fff;
+    background: #afafff;
     z-index: 10;
     transform: translateX(100vw);
     transition: all 0.8s cubic-bezier(0.06, 0.72, 0.43, 1.01);
@@ -2928,10 +2934,15 @@ common
 
 */
 .footerLogo{
+  display: flex;
+  align-items: center;
+}
+
+.footerLogo a{
   color: white;
 }
 
-.footerLogo:before {
+.footerLogo a:before {
   content: '';
   width: 1px;
   height: 30px;
@@ -2939,6 +2950,12 @@ common
   position: absolute;
   left: 105px;
   top: 30px;
+}
+
+@media screen and (max-width: 767px){
+  .footerLogo a:before {
+    display: none;
+  }
 }
 
 footer p{
