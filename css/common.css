@@ -2,11 +2,6 @@
 /*----------------------
   コンテンツ別の設定値
 ----------------------*/
-/*----------------------
-	mixiin
-----------------------*/
-/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
--------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -84,7 +79,7 @@ a:link {
 @media screen and (max-width: 767px){
   a,a:link {
   color: #000;
-}
+  }
 }
 
 a:active,
@@ -915,10 +910,6 @@ top
   font-size: 16px;
   padding-bottom: 145px;
   background-color: #262741;
-  /* background-image: url("../img/bg_logo_pc.png"); */
-  /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1200px 477px; */
 }
 
 @media screen and (min-width: 768px), print {
@@ -1378,9 +1369,6 @@ top
 #remote_natives .contact-block {
   height: 509px;
   background-color: #262741;
-  /* background-image: url("../img/bg_logo_pc.png");
-  background-repeat: no-repeat;
-  background-position: center; */
   background-size: 1200px 477px;
   display: flex;
 }
@@ -1697,16 +1685,6 @@ top
 #remote_natives .exmaple_list_inner li:last-child {
   margin-bottom: 0;
 }
-
-/* #remote_natives .example1 {
-  padding-top: 200px;
-}
-
-@media screen and (max-width: 767px) {
-  #remote_natives .example1 {
-    padding-top: 98px;
-  }
-} */
 
 #remote_natives .example1:before {
   width: 670px;
@@ -2136,10 +2114,6 @@ top
   padding-top: 185px;
   padding-bottom: 145px;
   background-color: #262741;
-  /* background-image: url("../img/bg_logo_pc.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1200px 477px; */
   line-height: 1.8em;
 }
 
