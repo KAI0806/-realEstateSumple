@@ -3190,3 +3190,58 @@ footer p{
     opacity: 0.7;
   }
 }
+
+/* SNS */
+.sns{
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.sns a{
+  margin: auto 1.5em;
+
+}
+
+.sns img{
+  background: linear-gradient(145deg, #ffffff, #dbdbdb);
+  box-shadow:  11px 11px 33px #b8b8b8, 
+            -11px -11px 33px #ffffff;
+  transition: all 1s ease-in-out;
+}
+
+.sns img:hover{
+  background: #7351FF;
+  box-shadow: inset 29px 29px 58px #5139b3, 
+  inset -29px -29px 58px #9669ff;
+}
+
+.insta{
+  border-radius: 13px;
+}
+
+.twitter{
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 767px){
+  .sns{
+    padding: 1.5em;
+  }
+
+  .sns a{
+    text-align: center;
+  }
+
+  .sns img{
+    width: 50%;
+  }
+
+  .insta{
+    border-radius: 5px;
+  }
+  
+  .twitter{
+    border-radius: 35px;
+  }
+}
