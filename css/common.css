@@ -434,17 +434,17 @@ top
   z-index: 2;
 }
 
-#remote_natives .first-view_contents2 {
+/* #remote_natives .first-view_contents2 {
   background: url("../img/mariah-hewines.jpg") center center no-repeat;
   background-size: cover;
-}
+} */
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   #remote_natives .first-view_contents2 {
     background: url("../img/mariah-hewines.jpg") center center no-repeat;
     background-size: cover;
   }
-}
+} */
 
 #remote_natives .first-view_contents2 .lun_menu a {
   color: #fff;
@@ -637,7 +637,7 @@ top
 #remote_natives .first-view_title:after, #remote_natives .first-view_title:before {
   content: '';
   display: block;
-  width: 5.7em;
+  width: 5em;
   height: 1px;
   background: #7351FF;
   position: absolute;
@@ -754,7 +754,7 @@ top
   overflow: hidden;
   height: 267px;
   padding: 30px 0 30px 0;
-  background: #FAFAFA;
+  background: #e4e4e4;
   box-sizing: border-box;
   max-width: 1104px;
   margin: 0 auto;
@@ -847,7 +847,6 @@ top
 }
 
 #remote_natives .news ul {
-  background: #FAFAFA;
   padding: 0 80px 0 80px;
 }
 
@@ -1372,9 +1371,9 @@ top
 #remote_natives .contact-block {
   height: 509px;
   background-color: #262741;
-  background-image: url("../img/bg_logo_pc.png");
+  /* background-image: url("../img/bg_logo_pc.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   background-size: 1200px 477px;
   display: flex;
 }
@@ -1692,7 +1691,7 @@ top
   margin-bottom: 0;
 }
 
-#remote_natives .example1 {
+/* #remote_natives .example1 {
   padding-top: 200px;
 }
 
@@ -1700,7 +1699,7 @@ top
   #remote_natives .example1 {
     padding-top: 98px;
   }
-}
+} */
 
 #remote_natives .example1:before {
   width: 670px;
@@ -2071,8 +2070,8 @@ top
 }
 
 #remote_natives .service .contact_btn {
-  margin: 100px auto 0;
-  width: 390px;
+  margin: 0 auto 100px;
+  width: 250px;
   height: 100px;
   border: 2px solid #fff;
   border-radius: 50px;
@@ -2131,10 +2130,10 @@ top
   padding-top: 185px;
   padding-bottom: 145px;
   background-color: #262741;
-  background-image: url("../img/bg_logo_pc.png");
+  /* background-image: url("../img/bg_logo_pc.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1200px 477px;
+  background-size: 1200px 477px; */
   line-height: 1.8em;
 }
 
@@ -2350,10 +2349,6 @@ top
   padding-top: 185px;
   padding-bottom: 145px;
   background-color: #262741;
-  background-image: url("../img/bg_logo_pc.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1200px 477px;
   line-height: 1.8em;
 }
 
@@ -2932,6 +2927,24 @@ top
 common
 
 */
+.footerLogo{
+  color: white;
+}
+
+.footerLogo:before {
+  content: '';
+  width: 1px;
+  height: 30px;
+  background: #EAEAEA;
+  position: absolute;
+  left: 105px;
+  top: 30px;
+}
+
+footer p{
+  margin-left: 2em;
+}
+
 .font-brandon {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 300;
